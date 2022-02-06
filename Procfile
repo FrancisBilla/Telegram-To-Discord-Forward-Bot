@@ -1,3 +1,3 @@
-web: python discord_messager.py config,yaml
+web: python3 forwardgram.py config.yaml
 
-worker: python discord_messager.py config,yaml
+worker: python3 forwardgram.py config.yaml
