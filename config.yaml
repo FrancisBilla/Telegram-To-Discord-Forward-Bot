@@ -1,14 +1,14 @@
-api_id: ENV['api_id']
+api_id: $ENV['api_id']
 
-api_hash: ENV['api_hash']
+api_hash: $ENV['api_hash']
 
 session_name: 'forwardgram'
 
-discord_bot_token: ENV['discord_bot_token']
+discord_bot_token: $ENV['discord_bot_token']
 
 # Discord Channels
-discord_1_channel: ENV['discord_1_channel']
-discord_2_channel: ENV['discord_2_channel']
+discord_1_channel: $ENV['discord_1_channel']
+discord_2_channel: $ENV['discord_2_channel']
 
 
 input_channel_names:
@@ -18,10 +18,10 @@ output_channel_names:
   - 'channel_recieve'
 
 input_channel_ids:
-  - ENV['input_channel_ids']
+  - $ENV['input_channel_ids']
 
 output_channel_ids:
-  - ENV['output_channel_ids']
+  - $ENV['output_channel_ids']
 
 # Do not touch this:
 input_channel_ids: []
