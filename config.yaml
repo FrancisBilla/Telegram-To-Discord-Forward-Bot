@@ -1,14 +1,14 @@
-api_id: $ENV['api_id']
+api_id: 12342136
 
-api_hash: $ENV['api_hash']
+api_hash: '6cfc7bd73256bc392c9665a2a7aa4e04'
 
 session_name: 'forwardgram'
 
-discord_bot_token: $ENV['discord_bot_token']
+discord_bot_token: 'OTM4NTQ2NzIwMTM5MjcyMjMz.Yfr3vw.2P4PWI9weglNNd_jan8okRRPZN4'
 
 # Discord Channels
-discord_1_channel: $ENV['discord_1_channel']
-discord_2_channel: $ENV['discord_2_channel']
+discord_1_channel: 932378136711139358
+discord_2_channel: 932377900643135535
 
 
 input_channel_names:
@@ -18,10 +18,10 @@ output_channel_names:
   - 'channel_recieve'
 
 input_channel_ids:
-  - $ENV['input_channel_ids']
+  - 1707541068
 
 output_channel_ids:
-  - $ENV['output_channel_ids']
+  - 1714931224
 
 # Do not touch this:
 input_channel_ids: []
