@@ -1,1 +1,1 @@
-bot: python3 forwardgram.py config.yaml
+bot: python forwardgram.py config.yaml
